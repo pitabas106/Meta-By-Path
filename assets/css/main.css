@@ -1,0 +1,63 @@
+.mbp-inner-form-table {
+  background: #ececec;
+  padding: 0;
+  width: 90%;
+  border-collapse: collapse;
+}
+.mbp-form-table .dashicons {
+  cursor: pointer;
+  color: #0073aa
+}
+.mbp-form-table .dashicons:hover {
+  color: #333;
+}
+.mbp-inner-form-table th {
+  padding: 10px;
+  background: #dedede;
+  border: 1px solid #ccc;
+}
+.mbp-inner-form-table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+.mbp-inner-form-table tfoot tr {
+  background: #cac7c7;
+  border-top: 2px solid #b9b7b7;
+}
+.mbp-inner-form-table .regular-text {
+  width: 100%;
+}
+.nt-text-center {
+  text-align: center;
+}
+
+body .mobile-view {
+  display: none;
+}
+body .desktop-view {
+  display: table-row;
+  border: 1px solid #CCC;
+}
+body .nt-danger {
+  background: #fff6f6;
+  border: 1px solid #d01616;
+}
+body .nt-msg-close {
+  float: right;
+  cursor: pointer;
+}
+body .nt-success-txt {
+  color: green
+}
+
+@media screen and (max-width: 782px) {
+  body .mbp-inner-form-table {
+    width: 100%;
+  }
+  body .desktop-view {
+    display: none;
+  }
+  body .mobile-view {
+    display: block;
+  }
+}
