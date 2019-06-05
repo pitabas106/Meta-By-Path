@@ -14,7 +14,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Meta By Path facilitates for easily replacing an existing value inside a meta content with a new one. Also, it can create new meta names and properties without requiring the knowledge on source code modification.
 
-
 == Description ==
 It is hard to optimize micro pages (such as authors, tag, category, archive) through Meta Description unless you are familiar with source codes. However with Meta By Path tool, it’s easy. You can add or replace meta tags for pages under any URL. You will find three boxes inside the tool; URL, Name and Value. Enter the url, meta name/property and the content inside the respective boxes and the tool will do the rest for you. The tool will fetch the meta name/property from the source code and will add the value inside the content. In case the desired property name is not present, it will create the same inside the source code and will add the value into its content.
 
