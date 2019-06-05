@@ -9,7 +9,6 @@
 if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 	exit();
 }
-
 global $wpdb;
 
 // Remove database table
