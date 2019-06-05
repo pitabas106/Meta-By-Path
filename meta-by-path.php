@@ -59,7 +59,6 @@ function wpmbp_on_activate( $network_wide ){
 
 register_activation_hook( __FILE__, 'wpmbp_on_activate' );
 
-
 function wpmbp_on_deactivate() {
   // do nothing
 }
